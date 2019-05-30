@@ -30,3 +30,5 @@ export RANLIB=/opt/toolchain/gcc-linaro-aarch64-linux-gnu-4.9-2014.09_linux/bin/
 root@parking:/opt/compile/PC/tvm_0.4.0_armv8/tvm/build# echo $CC
 /opt/toolchain/gcc-linaro-aarch64-linux-gnu-4.9-2014.09_linux/bin/aarch64-linux-gnu-g
 
+#1.1、设置过 cc 之后，则无法再配置其他的编译器相关路径。在 source ~./bashrc 中不用再添加其他的编译器路径，也说明 /etc/bash.bashrc 中的路径优先级更加高。
+
